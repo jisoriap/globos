@@ -21,9 +21,10 @@ class Globo
 
   void dibujate()
   {
-      strokeWeight(3);
+    fill(c);
+     strokeWeight(3);
      ellipse(x,y,75,100);
-     fill(c);
+     triangle(x,y+50,x-10,y+60,x+10,y+60);
   }
   
 }
